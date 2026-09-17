@@ -1,9 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" role="img" aria-labelledby="title">
   <title id="title">Veneto City Data API</title>
   <rect width="960" height="220" rx="28" fill="#0d2430"/>
-  <path d="M73 54 151 76l-18 79-55-13 15-36-34-21 14-31Z" fill="#58c5a9"/>
-  <circle cx="98" cy="86" r="9" fill="#fff"/><circle cx="137" cy="100" r="9" fill="#fff"/><circle cx="112" cy="132" r="9" fill="#fff"/>
-  <path d="M98 86 137 100 112 132 98 86" fill="none" stroke="#d8fff1" stroke-width="5"/>
-  <text x="215" y="122" fill="#f5fffb" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" letter-spacing="-2">Veneto City Data</text>
-  <text x="218" y="166" fill="#8fe0cb" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="600" letter-spacing="6">API</text>
+  <g transform="translate(210 35)">
+    <path d="M0 19 78 41 60 120 5 107 20 71-14 50 0 19Z" fill="#58c5a9"/>
+    <circle cx="25" cy="51" r="9" fill="#fff"/><circle cx="64" cy="65" r="9" fill="#fff"/><circle cx="39" cy="97" r="9" fill="#fff"/>
+    <path d="M25 51 64 65 39 97 25 51" fill="none" stroke="#d8fff1" stroke-width="5"/>
+  </g>
+  <text x="535" y="112" fill="#f5fffb" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" letter-spacing="-2" text-anchor="middle">Veneto City Data</text>
+  <text x="535" y="160" fill="#8fe0cb" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="600" letter-spacing="6" text-anchor="middle">API</text>
 </svg>
