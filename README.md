@@ -1,4 +1,14 @@
-# Veneto City Data API
+<p align="center">
+  <img src="docs/images/veneto-data-logo.svg" alt="Veneto City Data API" width="640">
+</p>
+
+<p align="center"><em>Official demographic and income data, made accessible through a typed API.</em></p>
+
+<p align="center">
+  <a href="https://github.com/medioalanum/veneto-city-data-api/actions/workflows/ci.yml"><img src="https://github.com/medioalanum/veneto-city-data-api/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-58c5a9?style=flat-square" alt="MIT License"></a>
+  <a href="#data-sources"><img src="https://img.shields.io/badge/data-ISTAT_%2B_MEF-0d2430?style=flat-square" alt="Data sources: ISTAT and MEF"></a>
+</p>
 
 Veneto City Data API is an asynchronous FastAPI service that combines official Italian open
 data to describe municipalities in Veneto with more than 50,000 residents. It turns two large,
