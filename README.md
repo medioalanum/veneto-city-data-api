@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/veneto-data-logo.svg" alt="Veneto City Data API" width="640">
+  <img src="docs/images/veneto-data-logo.png" alt="Veneto City Data API" width="640">
 </p>
 
 <p align="center"><em>Official demographic and income data, made accessible through a typed API.</em></p>
