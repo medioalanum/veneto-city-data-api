@@ -220,6 +220,18 @@ MEF. GitHub Actions runs the same checks for every push to `main` and every pull
 - Upstream schemas and download URLs can change. Parser tests detect known schema changes, while
   environment variables allow source URLs to be updated without changing application code.
 
+## Product Decisions
+
+- **Source-specific metadata:** demographic and income observations keep independent reference years because the providers publish on different schedules.
+- **Runtime eligibility:** the 50,000-resident threshold is evaluated from ISTAT data instead of maintaining a hardcoded city list.
+- **Graceful freshness:** stale cached data remains available during temporary upstream outages and is marked explicitly.
+
+## Roadmap
+
+1. Add historical snapshots so users can compare reference years over time.
+2. Add explicit freshness and source-status endpoints for operational consumers.
+3. Add a scheduled refresh job and alerting before offering a production SLA.
+
 ## License
 
 The application source code is available under the [MIT License](LICENSE). Data remains subject
